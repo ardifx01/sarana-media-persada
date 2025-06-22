@@ -2,14 +2,16 @@
     <div id="main-header" class="w-full bg-stone-900">
         <div class="flex items-center relative justify-between">
             <!-- Logo & Tittle Start-->
-            <div class="flex items-center ml-2 px-2 w-full sm:max-w-[180px]">
+            <div class="flex items-center ml-2 px-2 w-full sm:max-w-[250px]">
                 <a href="/dashboard/{{ $company->id }}" class="flex font-bold text-lg py-3">
                     <div
                         class="flex mx-2 items-center w-[30px] h-[30px] rounded-full bg-white border border-slate-200 drop-shadow-xl shadow-inner">
-                        <img class="sm:w-[26px] sm:h-[26px] flex m-auto" src="/img/logo-vista-media.png" alt="">
+                        <img class="sm:w-[26px] sm:h-[26px] flex m-auto" src="/img/logo-sarana-media-persada.png"
+                            alt="">
                     </div>
-                    <span class="text-white mx-1">Vista</span>
-                    <span class="text-red-500 mx-1">Media</span>
+                    <span class="text-red-500 mx-1">Sarana</span>
+                    <span class="text-blue-700 mx-1">Media</span>
+                    <span class="text-yellow-500 mx-1">Persada</span>
                 </a>
             </div>
             <!-- Logo & Tittle End-->
