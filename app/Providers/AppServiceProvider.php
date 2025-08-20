@@ -30,6 +30,7 @@ class AppServiceProvider extends ServiceProvider
         $bank_account->number = '040 332 2323';
         $bank_account->name = 'PT. SARANA MEDIA PERSADA';
         $bank_account->bank = 'BCA Cabang Hasanudin, Denpasar - Bali';
+        $bank_account->director = 'Iwan Tanusaputera';
         View::share('bank_account', $bank_account);
         View::share('categories', MediaCategory::all());
         View::share('company', Company::where('id', '=' , 4)->firstOrFail());
